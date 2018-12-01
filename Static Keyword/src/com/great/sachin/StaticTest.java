@@ -8,7 +8,7 @@ public class StaticTest {
         this.name= name;
         numInstance++;
     }
-    public int getNumInstance(){
+    public static int getNumInstance(){
         return numInstance;
     }
     public String getName(){
