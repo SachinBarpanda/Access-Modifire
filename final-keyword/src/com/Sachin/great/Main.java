@@ -16,5 +16,13 @@ public class Main {
          * */
 
         //Math m =new Math();
+
+        int pw = 7475945;
+        Password pass = new Password(pw);
+        pass.storePassword();
+
+        pass.letmeIn(283948);
+        pass.letmeIn(9384798);
+        pass.letmeIn(7475945);
     }
 }
