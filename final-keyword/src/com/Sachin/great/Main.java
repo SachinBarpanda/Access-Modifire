@@ -27,7 +27,7 @@ public class Main {
 
         StaticInitialize staticClass = new StaticInitialize();
         staticClass.someMethod();
-      
+
         System.out.println("Owner is " + staticClass.owner);
     }
 }
